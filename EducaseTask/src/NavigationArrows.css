@@ -1,0 +1,18 @@
+.nav-arrows {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.nav-arrows button {
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  color: #6c2cf0;
+}
+
+.nav-arrows button:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
